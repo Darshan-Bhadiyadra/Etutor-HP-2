@@ -1,0 +1,943 @@
+/* Mobile Device */
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+
+    .banner-boxes {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .banner-box {
+        border-radius: 8px;
+        width: 90%;
+    }
+
+    .dropdown-toggle {
+        border-radius: 8px;
+        width: 202px;
+    }
+
+    /* About */
+
+    .ab-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ab-box {
+        width: 90%;
+    }
+
+    /* Why */
+
+    .why .signup {
+        padding: 5px 15px;
+    }
+
+    /* Instrutor */
+
+    .img-box {
+        width: 305px !important;
+        left: 0 !important;
+        padding: 15px !important;
+    }
+
+    .inst {
+        height: 320px;
+    }
+
+    .img-box {
+        padding: 25px;
+        width: 360px;
+        top: 20px;
+        position: relative;
+        left: 25px;
+    }
+
+    .img-box p {
+        font-size: 12px !important;
+    }
+
+    .ins-btn {
+        width: 128px !important;
+        height: 35px !important;
+    }
+
+    .ins-btn span {
+        font-size: 10px !important;
+    }
+
+    /* Course */
+
+    .rat-enr {
+        flex-direction: column;
+    }
+
+    .profile img {
+        width: 26px;
+    }
+
+    .profile span {
+        font-size: 12px;
+    }
+
+    .one-col {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px;
+    }
+
+    .cat-cards .signup {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    /* Blog */
+
+    .blog-in-image {
+        top: 50% !important;
+    }
+
+    /* Update */
+
+    .update-box {
+        padding: 40px 30px !important;
+    }
+
+    .input-box {
+        padding: 5px 10px;
+    }
+
+    .input-box input {
+        width: 100px !important;
+    }
+
+    .input-box input::placeholder {
+        font-size: 8px;
+    }
+
+    .input-box i {
+        margin-right: 5px;
+        font-size: 12px;
+    }
+
+    .input-box .button {
+        padding: 3px 9px !important;
+        font-size: 8px;
+    }
+
+    /* Footer */
+
+    .last-row a,
+    .las p {
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+
+    /* Banner */
+
+    .banner-boxes {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .banner-box {
+        border-radius: 8px;
+        width: 90%;
+    }
+
+    .dropdown-toggle {
+        border-radius: 8px;
+        width: 252px;
+    }
+
+    /* About */
+
+    .ab-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ab-box {
+        width: 90%;
+    }
+
+    /* Instructor */
+
+    .img-box {
+        left: 0 !important;
+    }
+
+    /* Course */
+
+    .rat-enr {
+        flex-direction: column;
+    }
+
+    /* Blog */
+
+    .blog-in-image {
+        top: 58% !important;
+    }
+
+    /* Update */
+
+    .update-box {
+        padding: 40px 30px !important;
+    }
+
+    .input-box input {
+        width: 150px !important;
+    }
+
+    .input-box {
+        padding: 5px 8px 5px 12px;
+    }
+
+    .input-box .button {
+        padding: 5px 15px !important;
+        font-size: 11px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Container */
+
+    #banner .container {
+        padding: 2rem 0;
+    }
+
+    /* Banner */
+
+    #banner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .banner-boxes {
+        flex-direction: column;
+        gap: 15px;
+        margin: 0 20px;
+    }
+
+    .banner-box {
+        border: 1px solid black;
+        width: 100%;
+    }
+
+    .banner-txt {
+        width: 100%;
+    }
+
+    .banner-txt .bt {
+        display: grid;
+        place-content: center;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .banner-box {
+        padding: 10px 20px 10px 15px;
+    }
+
+    /* Company */
+
+    .company-img1,
+    .company-img2 {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .company img {
+        padding: 15px 25px;
+    }
+
+    .company h2 {
+        width: 100%;
+    }
+
+    .red-cir {
+        z-index: -1;
+    }
+
+    .blue-cir {
+        z-index: -1;
+        bottom: -5%;
+        left: -10%;
+    }
+
+    .blue-cir img {
+        width: 200px;
+        top: -45px;
+        left: 10px;
+    }
+
+    /* about */
+
+    #about .aboutp {
+        width: 95%;
+    }
+
+    .center-p {
+        width: 95%;
+    }
+
+    .ab-box {
+        padding: 20px 10px;
+    }
+
+    .ab-1 {
+        margin-top: -25px;
+    }
+
+    .ab-3 {
+        margin-top: 20px;
+    }
+
+    /* why */
+
+    .whyp {
+        width: 95%;
+    }
+
+    .why-img img {
+        width: 90%;
+    }
+
+    .why-box {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        row-gap: 25px;
+    }
+
+    .why-p2 p {
+        font-size: 14px;
+    }
+
+    /* Instructor */
+
+    .main-img img {
+        width: 100%;
+    }
+
+    .inst {
+        height: 250px;
+    }
+
+    .img-box {
+        padding: 25px;
+        width: 360px;
+        top: 20px;
+        position: relative;
+        left: 25px;
+    }
+
+    .img-box p {
+        font-size: 13px;
+    }
+
+    .ins-btn {
+        width: 148px;
+        height: 40px;
+    }
+
+    .ins-btn span {
+        font-size: 12px;
+    }
+
+    /* Course */
+
+    .co-p {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .card-row {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .card-body p {
+        width: 100%;
+    }
+
+    /* Slider */
+
+    .testimonial p {
+        width: 95%;
+        font-size: 16px;
+    }
+
+    .testimonial hr {
+        margin: 20px 40px 0;
+    }  
+
+    .owl-prev,
+    .owl-next {
+        top: 18%;
+    }
+
+    .small-img img,
+    .small-img1 img {
+        display: none !important;
+    }
+
+    /* Blog */
+
+    .blogp {
+        width: 85%;
+    }
+
+    .blog-col {
+        flex-direction: column;
+    }
+
+    .blog-in-image {
+        top: 63%;
+        padding: 0 30px;
+    }
+
+    .smallp {
+        margin-top: 8px;
+    }
+
+    /* Member */
+
+    .member-intro p {
+        width: 85%;
+        margin: 10px auto 15px;
+    }
+
+    .member-part {
+        flex-direction: column;
+    }
+
+    .img-part {
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+
+    #member img {
+        width: 100%;
+    }
+
+    .member-boxes {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .update-box {
+        width: 90%;
+        padding: 40px;
+        top: 60px;
+    }
+
+    .update-box input {
+        width: 180px;
+    }
+
+    .update-box h3 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .update-box p {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .input-box .button {
+        padding: 5px 10px;
+        font-size: 11px;
+    }
+
+    /* Footer */
+
+    .foot-cols {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+
+    .logo-col {
+        order: 1;
+    }
+
+    .insta-col {
+        order: 4;
+        margin: 0 auto 0 0;
+    }
+
+    .input-col {
+        order: 2;
+    }
+
+    .time-col {
+        order: 3;
+    }
+
+    .last-row {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+}
+
+/* Tablet Device */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* Header */
+
+    .nav-item a {
+        font-size: 12px;
+    }
+
+    header .signin,
+    header .signup {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+
+    /* Banner */
+
+    .banner-txt {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+
+    /* Company */
+
+    .company-img2 {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .red-cir {
+        top: 28%;
+        right: 1%;
+        width: 150px;
+        height: 150px;
+    }
+
+    .blue-cir {
+        bottom: 24%;
+        left: -8%;
+        width: 150px;
+        height: 150px;
+    }
+
+    /* About */
+
+    .about-row {
+        display: none;
+    }
+
+    #about .aboutp {
+        width: 65%;
+    }
+
+    .tab-about {
+        display: block;
+    }
+
+    /* Why */
+
+    .whyp {
+        width: 75%;
+    }
+
+    .why-img img {
+        width: 90%;
+    }
+
+    .why-p2 p {
+        font-size: 15px;
+    }
+
+    /* Instructor */
+
+    .main-img img {
+        width: 90%;
+    }
+
+    .inst {
+        height: 380px;
+    }
+
+    .img-box {
+        padding: 30px;
+        width: 600px;
+        top: 30px;
+        position: relative;
+        margin-left: 80px;
+    }
+
+    .img-box p {
+        font-size: 14px;
+    }
+
+    .inst-btn {
+        justify-content: center;
+    }
+
+    .inst-btn button {
+        font-size: 13px;
+        padding: 7px 22px;
+    }
+
+    /* Course */
+
+    .co-p {
+        width: 70%;
+        margin: 12px auto;
+    }
+
+    .card-row {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .card-body p {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .five-type span img {
+        width: 13px;
+    }
+
+    .five-type span {
+        font-size: 11px;
+    }
+
+    .profile span {
+        font-size: 11px;
+    }
+
+    .cat-cards .signup {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+
+    /* Slider */
+
+    .testimonial p {
+        width: 82%;
+    }
+
+    .testimonial hr {
+        margin: 20px 70px 0;
+    }    
+
+    /* Blog */
+
+    .blogp {
+        width: 75%;
+    }
+
+    .blog-in-image {
+        top: 60%;
+        padding: 0 30px;
+    }
+
+    /* Member */
+
+    .member-intro p {
+        width: 65%;
+        margin: 10px auto 15px;
+    }
+
+    .member-part {
+        flex-direction: column;
+    }
+
+    .img-part {
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+
+    #member img {
+        width: 100%;
+    }
+
+    .member-boxes {
+        width: 100%;
+    }
+
+    /* Update */
+
+    .update-img {
+        padding: 120px;
+    }
+
+    .update-box {
+        width: 75%;
+        padding: 40px;
+        top: 60px;
+    }
+
+    /* Footer */
+
+    .foot-cols {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 40px;
+    }
+
+    .logo-col {
+        order: 1;
+    }
+
+    .insta-col {
+        order: 4;
+        margin: 0 auto 0 0;
+    }
+
+    .input-col {
+        order: 2;
+    }
+
+    .time-col {
+        order: 3;
+    }
+}
+
+/* Laptop Device */
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+    /* Header */
+
+    .nav-item a {
+        font-size: 13px;
+    }
+
+    header .signin {
+        padding: 3px 20px;
+        font-size: 14px;
+    }
+
+    header .signup {
+        padding: 3px 20px;
+        font-size: 14px;
+    }
+
+    /* Banner */
+
+    .banner-txt {
+        width: 80%;
+    }
+
+    /* Company */
+
+    .company h2 {
+        width: 70%;
+    }
+
+    .blue-cir img {
+        width: 200px;
+        position: relative;
+        top: -35px;
+        left: 18px;
+    }
+
+    /* About */
+
+    #about .aboutp,
+    .whyp {
+        width: 62%;
+    }
+
+    .ab-box {
+        padding: 25px 15px;
+    }
+
+    .center-p {
+        font-size: 14px;
+        width: 95%;
+    }
+
+    .true-text p {
+        font-size: 14px;
+    }
+
+    /* Why */
+
+    .why-p2 p {
+        font-size: 16px;
+    }
+
+    /* Instructor */
+
+    .inst {
+        height: 200px;
+    }
+
+    .img-box {
+        padding: 20px;
+        width: 300px;
+        right: 15px;
+    }
+
+    .img-box p {
+        font-size: 12px;
+    }
+
+    .ins-btn {
+        width: 123px;
+        height: 40px;
+    }
+
+    .ins-btn span {
+        font-size: 11px;
+    }
+
+    /* Course */
+
+    .co-p {
+        width: 60%;
+    }
+
+    .card-body p {
+        width: 100%;
+        font-size: 16px !important;
+    }
+
+    .card-body .bg-text p {
+        font-size: 12px !important;
+        padding: 5px 15px;
+    }
+
+    .rat-enr {
+        flex-direction: column;
+    }
+
+    .five-type span img {
+        width: 13px;
+    }
+
+    .five-type span {
+        font-size: 11px;
+    }
+
+    .profile span {
+        font-size: 11px;
+    }
+
+    .cat-cards .signup {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+
+    /* Slider */
+
+    .testimonial p {
+        width: 70%;
+    }
+
+    .owl-prev,
+    .owl-next {
+        top: 20%;
+    }
+
+    .testimonial hr {
+        margin: 20px 140px 0;
+    }    
+
+    /* Blog */
+
+    .blogp {
+        width: 50%;
+    }
+
+    #blog .card-text {
+        font-size: 15px !important;
+    }
+
+    /* Member */
+
+    .member-intro p {
+        width: 65%;
+        margin: 10px auto 15px;
+    }
+
+    .img-part {
+        width: 35%;
+    }
+
+    .member-boxes {
+        width: 65%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    .box-text {
+        margin-top: 15px;
+    }
+
+    .member-box i {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .box-text h6 {
+        font-size: 20px;
+    }
+
+    .box-text p {
+        font-size: 14px;
+    }
+
+    /* Update */
+
+    .update-img {
+        padding: 150px 100px 130px;
+    }
+
+    .update-box {
+        width: 58%;
+    }
+
+    /* Footer */
+
+    .foot-cols {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+    }
+
+    .logo-col {
+        order: 1;
+    }
+
+    .insta-col {
+        order: 3;
+        margin: 0 auto;
+    }
+
+    .input-col {
+        order: 2;
+    }
+
+    .time-col {
+        order: 4;
+    }
+
+}
